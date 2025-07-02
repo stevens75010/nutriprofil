@@ -1,0 +1,31 @@
+-- Création des tables pour le projet alimentation
+
+CREATE TABLE aliments (
+    id SERIAL PRIMARY KEY,
+    nom TEXT NOT NULL,
+    energie_kcal_100g REAL,
+    proteines_g REAL,
+    glucides_g REAL,
+    lipides_g REAL
+);
+
+CREATE TABLE consommation_menages (
+    id SERIAL PRIMARY KEY,
+    poste_budgetaire TEXT NOT NULL,
+    valeur REAL
+);
+
+CREATE TABLE utilisateurs (
+    id SERIAL PRIMARY KEY,
+    age INT,
+    sexe TEXT,
+    region TEXT,
+    habitude_alimentaire TEXT
+);
+
+CREATE TABLE recommandations (
+    id SERIAL PRIMARY KEY,
+    utilisateur_id INT REFERENCES utilisateurs(id),
+    texte TEXT,
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
