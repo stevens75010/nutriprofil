@@ -1,0 +1,7 @@
+var_nutrition,seuil,maladie,risque_relatif,interpretation,source_cohorte,reference_pub
+procmeat,50 g/j,mortalité (toutes causes),+18%,+18% de mortalité par 50g/j de viande transformée,EPIC (2013),10.1186/1741-7015-11-63
+ssbs,100 ml/j,cancer (tous types),+18%,+18% de cancer global par 100ml/j de boissons sucrées,NutriNet-Santé (2019),10.1136/bmj.l2408
+sodium,>2 g/j,hypertension,+20 à +30%,+20–30% de risque d’HTA si sodium >2g/j,Nurses’ Health Study,10.2337/diacare.25.2.322
+fiber,+10 g/j,diabète type 2,-9%,-9% de risque de diabète type 2 par 10g/j de fibres,EPIC (2015),10.2337/dc14-1728
+redmeat,100 g/j,cancer colorectal,+12%,+12% de risque de cancer colorectal par 100g/j de viande rouge,EPIC (2011),10.1016/S0140-6736(11)61051-9
+fruit,80 g/j,MCV,-4%,-4% de mortalité cardiovasculaire par +80g/j de fruits,EPIC (2013),10.1093/eurheartj/eht208
