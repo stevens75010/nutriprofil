@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/nutriprofil-logo.png" alt="Nutriprofil Logo" width="300">
+  <img src="images/nutriprofil-logo.png" alt="Nutriprofil Logo" width="300">
 </div>
 
 
