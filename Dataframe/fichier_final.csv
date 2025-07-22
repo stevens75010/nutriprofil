@@ -1,0 +1,578 @@
+Aliment,IG,CG,Calories,Glucides,Protéines,Gras,Famille,Fibres
+Bagel (blé),70.0,35.4,257.0,50.5,10.0,1.6,Produits de boulangerie, 0 
+"Bagels, bagels",70.0,48.1,312.0,68.7,10.4,1.3,Produits de boulangerie, 0 
+Baguette (blanche),95.0,46.5,240.0,49.0,7.5,2.5,Produits de boulangerie, 0 
+Baguette (grains entiers),73.0,28.3,219.0,38.8,6.3,1.2,Produits de boulangerie," 1,66 "
+Baguette de pain blanc,70.0,36.0,262.0,51.4,7.5,2.9,Produits de boulangerie, 0 
+Baguette française à base de farine de blé,70.0,23.4,179.0,33.4,6.5,2.4,Produits de boulangerie, 0 
+Beignets,75.0,38.3,452.0,51.0,4.9,25.0,Produits de boulangerie," < 0,33 "
+Biscotti (biscuits secs),70.0,35.0,358.0,50.0,6.0,15.0,Produits de boulangerie, 0 
+Biscuit,70.0,34.0,365.0,48.5,6.2,16.5,Produits de boulangerie, 0 
+Biscuits (pâtisseries),70.0,46.2,460.0,66.0,7.0,18.0,Produits de boulangerie, 0 
+"Biscuits au beurre (farine, beurre, sucre)",55.0,29.1,549.0,53.0,7.0,18.0,Produits de boulangerie, 0 
+Biscuits au riz,85.0,58.6,310.0,69.0,6.0,1.0,Produits de boulangerie, 0 
+"Biscuits sablés (farine intégrale, sans sucre)",40.0,17.2,398.0,43.0,22.0,23.0,Produits de boulangerie, 0 
+Biscuits à l&#039;avoine,55.0,39.5,437.0,71.8,6.5,14.4,Produits de boulangerie, 0 
+Brioche (pain),70.0,32.9,236.0,47.0,5.0,4.0,Produits de boulangerie, traces 
+"Cookies (farine de grains entiers, sans sucre)",50.0,23.4,273.0,46.8,10.0,5.6,Produits de boulangerie, 0 
+Cookies multigrains,51.0,33.2,429.0,65.1,11.0,17.9,Produits de boulangerie, 0 
+Craquelins,70.0,50.4,407.0,72.0,14.0,7.0,Produits de boulangerie, 0 
+Craquelins de seigle,64.0,44.8,336.0,70.0,16.0,1.0,Produits de boulangerie, 0 
+Croissant,70.0,21.7,287.0,31.0,6.3,14.0,Produits de boulangerie, 0 
+Crêpes,66.0,16.6,185.0,25.2,5.5,7.5,Produits de boulangerie, 0 
+Crêpes de sarrasin,40.0,3.6,215.0,9.0,6.0,25.6,Produits de boulangerie, 0 
+Galette,69.0,38.6,354.0,56.0,7.5,10.9,Produits de boulangerie, 0 
+Gaufres,75.0,54.3,433.0,72.4,6.6,14.2,Produits de boulangerie, 0 
+Gaufres au riz,64.0,52.3,374.0,81.7,8.5,3.3,Produits de boulangerie, 0 
+Gâteau de riz,85.0,69.7,387.0,82.0,8.0,2.8,Produits de boulangerie, 0 
+Paille,60.0,41.6,372.0,69.3,9.1,6.1,Produits de boulangerie, 1 
+Pain (flocons d&#039;avoine),47.0,19.2,226.0,40.8,7.1,3.2,Produits de boulangerie, 0 
+Pain au lait,60.0,29.9,243.0,49.8,7.1,2.1,Produits de boulangerie, 0 
+Pain au son,65.0,29.4,227.0,45.2,7.5,1.3,Produits de boulangerie, 0 
+Pain aux fruits,47.0,24.4,370.0,52.0,7.6,7.4,Produits de boulangerie, 0 
+Pain blanc sans gluten,90.0,14.0,129.0,15.6,3.5,5.8,Produits de boulangerie, 0 
+Pain complet,40.0,15.9,204.0,39.8,6.2,2.1,Produits de boulangerie, 0 
+Pain de blé,70.0,34.3,265.0,49.0,9.0,3.2,Produits de boulangerie, 0 
+"Pain de mie, blanc",75.0,39.4,285.0,52.5,7.3,3.9,Produits de boulangerie, 0 
+Pain de riz,70.0,48.0,306.0,68.6,6.3,0.7,Produits de boulangerie, 0 
+Pain de sarrasin,50.0,22.9,228.0,45.8,7.1,2.5,Produits de boulangerie, 0 
+Pain de seigle,65.0,31.2,259.0,48.0,9.0,3.3,Produits de boulangerie, 0 
+Pain de seigle noir,45.0,21.6,250.0,48.0,9.0,3.1,Produits de boulangerie, 0 
+Pain germé,35.0,12.7,204.0,36.4,6.8,3.1,Produits de boulangerie," < 0,5 "
+Pain à hamburger,61.0,30.1,279.0,49.4,9.5,4.3,Produits de boulangerie, 0 
+Pain à la citrouille,40.0,17.0,211.0,42.6,5.5,2.4,Produits de boulangerie, 0 
+Pain à la farine blanche,90.0,43.9,242.0,48.8,8.1,1.0,Produits de boulangerie, 0 
+Pain à la levure brune,65.0,26.0,250.0,40.0,13.0,3.0,Produits de boulangerie," 1,69 "
+Pita,57.0,31.9,275.0,56.0,9.0,1.2,Produits de boulangerie," 0,00092 "
+Pizza,60.0,19.8,266.0,33.0,11.0,10.0,Produits de boulangerie, 0 
+Produits de boulangerie (blé),90.0,33.9,201.0,37.7,7.7,1.4,Produits de boulangerie, 0 
+Sables,60.0,32.2,364.0,53.7,5.5,14.6,Produits de boulangerie, 0 
+Tarte aux bananes,47.0,17.1,257.0,36.4,4.7,10.3,Produits de boulangerie, 0 
+Bière,70.0,2.5,43.0,3.6,0.0,0.0,Breuvages,0
+"Boissons gazeuses (soda, cola)",60.0,6.0,38.0,10.0,0.0,0.0,Breuvages,0
+Boissons pour sportifs,75.0,2.9,16.0,3.9,0.0,0.0,Breuvages,0
+Chicorée,15.0,0.6,21.0,4.1,0.0,0.2,Breuvages,0
+Chicorée (boisson),40.0,1.1,11.0,2.8,0.0,0.0,Breuvages,0
+Cidre de pomme (brut),40.0,0.0,32.8,0.0,0.0,26.1,Breuvages,0
+Cidre sec,40.0,11.6,117.0,28.9,0.0,0.3,Breuvages,0
+Grains de café,50.0,0.1,2.0,0.3,0.0,0.0,Breuvages,0
+Jus d&#039;ananas (non sucré),50.0,6.8,56.0,13.6,0.0,0.1,Breuvages,0
+Jus d&#039;ananas (sans sucre),50.0,6.4,53.0,12.8,0.0,0.1,Breuvages,0
+Jus d&#039;orange (fraîchement pressé et sans sucre),45.0,4.8,46.0,10.6,0.0,0.3,Breuvages,0
+Jus de betterave rouge,64.0,0.0,42.0,0.0,0.0,9.9,Breuvages,0
+Jus de canneberge (non sucré),50.0,7.3,58.0,14.5,0.0,0.1,Breuvages,0
+Jus de canneberge (sans sucre),50.0,7.3,58.0,14.5,0.0,0.1,Breuvages,0
+Jus de carotte (non sucré),40.0,2.6,28.0,6.4,0.0,0.1,Breuvages,0
+Jus de citron (non sucré),20.0,0.6,16.0,3.0,0.0,0.1,Breuvages,0
+Jus de pamplemousse (non sucré),45.0,2.7,28.0,6.1,0.0,0.0,Breuvages,0
+Jus de pamplemousse (sans sucre),45.0,4.5,40.0,10.0,0.0,0.0,Breuvages,0
+Jus de poire,50.0,5.5,46.0,11.0,0.0,0.3,Breuvages,0
+Jus de pomme (non sucré),40.0,4.9,49.0,12.2,0.0,0.1,Breuvages,0
+Jus de pomme (sans sucre),50.0,5.7,47.0,11.3,0.0,0.14,Breuvages,0
+Jus de raisin (non sucré),45.0,6.9,60.0,15.4,0.0,0.0,Breuvages,0
+Jus de raisin (sans sucre),55.0,9.3,65.0,17.0,0.0,0.0,Breuvages,0
+Jus de tomate,35.0,1.5,17.0,4.2,0.0,0.1,Breuvages,0
+Poudre de cacao (sans sucre),20.0,4.4,358.0,21.8,0.0,11.6,Breuvages,0
+Sirop d&#039;agave),15.0,11.4,310.0,76.0,0.0,0.5,Breuvages,0
+du jus d&#039;orange,48.0,4.8,45.0,10.0,0.0,0.2,Breuvages,0
+jus de pomme,41.0,4.5,46.0,11.0,0.0,0.1,Breuvages,0
+Cheddar,0.0,0.0,402.0,1.3,25.0,33.0,Produits laitiers, 0 
+Cottage cheese,30.0,0.8,103.0,2.7,12.5,4.5,Produits laitiers, 0 
+Cottage cheese 9% gras,30.0,2.7,185.0,9.0,14.0,2.0,Produits laitiers, 0 
+Crème,30.0,1.1,196.0,3.7,2.7,19.0,Produits laitiers," < 0,5 "
+Crème (10%),25.0,1.1,118.0,4.4,2.8,10.0,Produits laitiers," 2,6 "
+Crème (18%),30.0,1.1,189.0,3.8,2.9,18.0,Produits laitiers," 2,3 "
+Crème (30%),33.0,1.2,296.0,3.7,2.8,30.0,Produits laitiers," 3,2 "
+Crème aigre,15.0,0.6,119.0,3.9,2.7,10.0,Produits laitiers," 2,96 "
+Crème de soja,20.0,12.9,500.0,64.4,3.4,25.5,Produits laitiers," 5,8 "
+Crème glacée,62.0,14.9,207.0,24.0,3.5,11.0,Produits laitiers," 0,65 "
+Crème glacée (avec fructose),35.0,9.4,391.0,27.0,10.7,26.5,Produits laitiers," 2,55 "
+Crème sure (20%),25.0,0.8,204.0,3.2,2.8,20.0,Produits laitiers," 3,19 "
+Crêpes Cottage Cheese,70.0,8.4,220.0,12.0,17.4,10.6,Produits laitiers," 1,5 "
+"Fromage (Mozzarella, fromage cottage pressé, etc,)",0.0,0.0,242.0,1.0,18.8,18.1,Produits laitiers," 53,2 "
+Fromage au tofu,15.0,0.6,73.0,4.2,8.1,0.6,Produits laitiers," 14,1 "
+Fromage blanc,45.0,10.3,340.0,23.0,7.0,10.0,Produits laitiers, 0 
+Fromage cottage faible en gras,30.0,0.3,88.0,1.0,18.0,1.2,Produits laitiers," 1,15 "
+Fromage fondu,57.0,15.4,323.0,27.0,20.0,3.8,Produits laitiers," 22,5 "
+Fromage écrémé,30.0,0.4,71.0,1.3,16.5,0.0,Produits laitiers," 7,15 "
+Fromages Feta,30.0,1.2,264.0,4.1,14.0,21.0,Produits laitiers, < 1 
+"Glace (écrémé, vanille)",46.0,13.8,138.0,30.1,4.5,0.0,Produits laitiers," 4,3 "
+Glace au lait de soja,35.0,6.0,180.0,17.0,10.9,7.3,Produits laitiers," 25,7 "
+"Glace à la vanille (régulière, avec sucre)",60.0,14.4,207.0,24.0,3.5,11.0,Produits laitiers," 7,5 "
+Kéfir (1% de matières grasses),31.0,1.2,37.0,4.0,3.0,1.0,Produits laitiers, 0 
+Kéfir (régulier),36.0,1.4,56.0,4.0,2.8,3.2,Produits laitiers, 0 
+Kéfir faible en gras,25.0,0.0,30.0,0.1,3.0,3.8,Produits laitiers," 26,2 "
+Lait,31.0,1.6,53.0,5.0,3.0,2.5,Produits laitiers," 4,5 "
+Lait au chocolat,34.0,3.7,88.0,10.9,3.3,3.6,Produits laitiers," 9,45 "
+Lait d&#039;amande,30.0,3.9,51.0,13.0,18.6,53.7,Produits laitiers," 29,7 "
+Lait d&#039;avoine (cru),69.0,3.5,48.0,5.1,0.8,2.8,Produits laitiers," 53,1 "
+Lait de chèvre,24.0,1.1,69.0,4.4,3.6,4.1,Produits laitiers," 41,9 "
+Lait de coco,40.0,1.1,197.0,2.8,2.0,21.3,Produits laitiers," 7,4 "
+Lait de soja,30.0,1.8,54.0,6.0,3.3,1.8,Produits laitiers," 29,8 "
+Lait entier,34.0,1.6,63.0,4.6,3.1,3.6,Produits laitiers," 37,7 "
+Lait entier 3%,27.0,1.2,64.0,4.6,3.3,3.7,Produits laitiers," 3,47 "
+Lait naturel,32.0,1.3,60.0,4.2,3.1,4.8,Produits laitiers," 40,3 "
+Lait écrémé,27.0,0.1,31.0,0.2,3.0,4.7,Produits laitiers," 42,5 "
+Riz au lait,85.0,5.5,30.0,6.5,0.6,0.1,Produits laitiers," 42,6 "
+Yaourt,35.0,1.6,82.0,4.7,9.1,3.4,Produits laitiers," 40,3 "
+"Yaourt 1,5% naturel",35.0,0.5,47.0,1.5,5.0,3.5,Produits laitiers, 37 
+Yaourt aux fruits,52.0,1.5,105.0,2.8,5.1,15.7,Produits laitiers," 3,9 "
+Yaourt de soja (naturel),20.0,1.6,64.0,8.0,3.7,2.0,Produits laitiers," 3,6 "
+Yaourt sans gras,33.0,2.5,56.0,7.6,5.7,0.2,Produits laitiers," 10,5 "
+Yaourt sucré,52.0,4.7,71.0,9.1,2.8,2.5,Produits laitiers," 3,7 "
+Chips de maïs,63.0,28.8,373.0,45.7,5.2,18.7,Restauration rapide," 1,19 "
+Chips de pommes de terre,70.0,37.0,491.0,52.8,7.7,32.4,Restauration rapide," 23,3 "
+Croustilles de maïs salées,42.0,25.6,497.0,61.0,7.0,25.0,Restauration rapide," 1,9 "
+Frites,75.0,22.6,276.0,30.1,3.8,15.5,Restauration rapide," 20,8 "
+Hamburger,66.0,1.3,258.0,1.9,30.8,13.7,Restauration rapide," 34,9 "
+Nouilles chinoises,35.0,23.4,336.0,67.0,12.0,1.0,Restauration rapide," 0,47 "
+Nouilles instantanées,52.0,29.5,448.0,56.7,8.8,20.7,Restauration rapide," 33,9 "
+Pommes de terre instantanées,87.0,66.1,373.0,76.0,10.0,5.0,Restauration rapide," 26,3 "
+Pop corn,55.0,40.7,375.0,74.0,11.0,4.3,Restauration rapide," 0,32 "
+Abricot,34.0,3.8,48.0,11.1,1.4,0.4,Fruits," 1,8 "
+Abricots (en conserve dans du sirop),60.0,12.9,83.0,21.5,0.5,0.1,Fruits," 21,6 "
+Abricots secs,35.0,21.2,260.0,60.7,3.5,1.4,Fruits, - 
+"Acerola, Barbados Cherry (frais)",20.0,0.1,32.0,0.3,0.4,7.7,Fruits, 0 
+Ananas,66.0,8.6,50.0,13.1,0.5,0.1,Fruits," 40,1 "
+Ananas (en conserve dans du sirop),65.0,10.1,66.0,15.6,0.5,0.1,Fruits," 14,8 "
+Argousier,30.0,0.8,52.0,2.5,0.9,5.0,Fruits," 45,7 "
+Avocat,10.0,0.9,160.0,9.0,2.0,15.0,Fruits, 38 
+Baies de Goji,25.0,13.3,309.0,53.4,11.1,2.6,Fruits, 0 
+Banane,48.0,10.1,88.0,21.0,1.5,0.5,Fruits," 39,8 "
+Bananes (séchées),48.0,42.4,346.0,88.3,3.9,1.8,Fruits," 14,1 "
+Canneberges (fraîches),45.0,5.5,46.0,12.2,0.4,0.1,Fruits, 7 
+Cassis (baies fraîches),15.0,1.1,44.0,7.3,1.0,0.4,Fruits, 14 
+"Cerise (douce, fraîche)",25.0,4.0,63.0,16.0,1.1,0.2,Fruits," 1,29 "
+Cerise prune,25.0,0.0,27.0,0.0,0.2,6.4,Fruits," 2,7 "
+Cerise sucrée,25.0,0.1,50.0,0.4,1.2,10.6,Fruits, 28 
+Citron (fruits frais),20.0,0.6,16.0,3.0,0.9,0.1,Fruits," 24,6 "
+Coing (en conserve / gelée avec du sucre),65.0,7.2,50.0,11.0,0.6,0.5,Fruits," 0,23 "
+Coing (en conserve / gelée sans sucre),40.0,3.8,45.0,9.6,0.6,0.5,Fruits," 5,64 "
+Coing (fruits frais),35.0,3.4,40.0,9.8,0.6,0.5,Fruits," 25,9 "
+Compote de pommes (non sucrée),35.0,4.0,42.0,11.3,0.2,0.1,Fruits, 0 
+Dattes séchées,40.0,27.7,292.0,69.2,2.5,0.5,Fruits, 0 
+Dessert banane (mûre),60.0,13.1,95.0,21.8,1.0,0.3,Fruits," 0,5 "
+Dessert banane (vert),45.0,15.7,137.0,34.9,1.5,0.7,Fruits, - 
+Figue (fraîche),35.0,6.7,74.0,19.2,0.7,0.3,Fruits," 3,6 "
+Figue (séchée),50.0,28.9,257.0,57.9,3.1,0.8,Fruits," 27,2 "
+Figue de Barbarie (fruits frais),35.0,3.4,41.0,9.6,0.7,0.5,Fruits," 22,7 "
+Fraises (baies fraîches),25.0,1.9,32.0,7.7,0.7,0.3,Fruits, 0 
+Framboises (baies fraîches),25.0,3.0,53.0,12.0,1.2,0.7,Fruits," 0,5 "
+Fruit de la passion,30.0,6.9,97.0,23.0,2.2,0.7,Fruits," 6,2 "
+"Fruit de la passion, granadilla (frais)",30.0,4.0,68.0,13.4,2.4,0.4,Fruits," 3,5 "
+Fruit à pain,65.0,17.6,103.0,27.0,1.1,0.2,Fruits," 2,8 "
+Fruits secs,60.0,49.8,359.0,83.0,1.0,2.7,Fruits, 0 
+Grenade (fraîche),35.0,6.7,83.0,19.0,1.7,0.0,Fruits," 1,5 "
+Groseille (baie fraîche),25.0,1.9,43.0,7.7,0.6,0.2,Fruits, 0 
+Groseille jaune,15.0,1.8,43.0,12.0,0.7,0.2,Fruits," 1,2 "
+"Kaki, kaki oriental (frais)",50.0,7.7,66.0,15.3,0.5,0.3,Fruits," 1,3 "
+Kiwi,50.0,7.3,61.0,14.7,1.1,0.5,Fruits," 0,48 "
+Litchi (fruits frais),50.0,7.6,66.0,15.2,0.8,0.4,Fruits," 0,86 "
+Litchi (sirop en conserve),79.0,14.8,76.0,18.7,0.4,0.5,Fruits," 0,5 "
+Mandarin,30.0,3.9,53.0,13.0,0.8,0.3,Fruits," 2,17 "
+Mandarine (en conserve),47.0,4.2,37.0,8.9,0.6,0.3,Fruits," 0,32 "
+"Mandarines, mandarines, satsuma (frais)",30.0,3.9,53.0,13.0,0.8,0.3,Fruits," 0,5 "
+Mangue,56.0,8.4,60.0,15.0,0.8,0.4,Fruits," 0,34 "
+Melon,65.0,5.2,34.0,8.0,0.8,0.2,Fruits, traces 
+Myrtille,25.0,2.0,35.0,8.2,1.0,0.0,Fruits," 5,1 "
+Myrtille (baies fraîches),25.0,1.7,31.0,6.8,0.8,0.0,Fruits," 2,29 "
+Myrtilles,53.0,4.0,44.0,7.6,1.1,0.4,Fruits," 1,3 "
+Mûre (baie fraîche),25.0,2.5,43.0,10.0,1.4,0.5,Fruits," 0,52 "
+Nectarine (fruits frais),35.0,4.1,48.0,11.8,0.9,0.2,Fruits," 0,5 "
+Néflier japonais prune,55.0,5.7,47.0,10.4,0.4,0.2,Fruits," 0,9 "
+Orange (fruits frais),35.0,4.1,47.0,11.7,0.9,0.1,Fruits," 2,65 "
+Pamplemousse,22.0,2.4,42.0,11.0,0.8,0.1,Fruits," 0,43 "
+Pamplemousse en conserve,47.0,4.3,36.0,9.1,0.6,0.1,Fruits," 1,28 "
+Papaye (fraîche),60.0,5.5,48.0,9.2,0.6,0.1,Fruits," < 0,5 "
+Pastèque,75.0,5.6,30.0,7.5,0.6,0.1,Fruits," 0,2 "
+"Pepino, melon poire",40.0,8.0,80.0,20.0,0.0,0.0,Fruits, 2 
+Physalis,15.0,0.6,32.0,3.9,1.0,1.0,Fruits, 1 
+Plantano (brut),45.0,13.6,122.0,30.2,1.3,0.4,Fruits," 0,17 "
+Platano (brut),45.0,14.4,122.0,32.0,1.3,0.4,Fruits," 2,25 "
+Platano (cuit uniquement),70.0,22.4,122.0,32.0,1.3,0.4,Fruits," 0,65 "
+Platano (cuit),70.0,27.4,155.0,39.2,1.5,0.2,Fruits," 0,4 "
+Poire (fruits frais),30.0,4.7,75.0,15.5,0.6,0.1,Fruits," 0,97 "
+Poire melon (pépino),40.0,8.0,80.0,20.0,0.0,0.0,Fruits," 0,46 "
+Poires (séchées),43.0,26.9,249.0,62.6,2.3,0.6,Fruits," 0,8 "
+Poires en conserve,55.0,8.6,65.0,15.6,0.2,0.0,Fruits," 0,2 "
+"Pomelo, sheddock (frais)",25.0,2.0,32.0,8.1,0.6,0.1,Fruits," 0,42 "
+Pomme verte,36.0,5.0,52.0,14.0,0.3,0.2,Fruits," 2,1 "
+Pommes séchées,35.0,20.6,231.0,59.0,2.2,0.1,Fruits," 2,09 "
+Pomélo,30.0,3.0,38.0,10.0,0.8,0.0,Fruits," 1,3 "
+Pruneaux,40.0,25.6,240.0,64.0,2.2,0.4,Fruits," 2,5 "
+Prunes (fraîches),35.0,3.9,46.0,11.0,0.7,0.3,Fruits," 0,58 "
+Pêche (en conserve dans du sirop),55.0,8.1,68.0,14.7,0.3,0.1,Fruits," 0,1 "
+Pêche (fruits frais),35.0,4.0,46.0,11.3,0.9,0.1,Fruits," 0,004 "
+Pêches séchées,35.0,20.2,254.0,57.7,3.0,0.4,Fruits," 2,35 "
+"Raisin, noir",59.0,11.0,65.0,18.7,1.3,0.3,Fruits," 3,34 "
+Raisins rouges (crus),45.0,8.1,69.0,18.0,0.7,0.2,Fruits," 2,5 "
+Raisins secs,65.0,51.5,299.0,79.2,3.1,0.5,Fruits," 1,13 "
+Raisins secs (rouge et or),65.0,46.8,301.0,72.0,2.0,0.5,Fruits," 0,87 "
+"Raisins, verts (crus)",45.0,5.4,52.0,12.0,1.0,0.0,Fruits," 0,35 "
+Rendez-vous,70.0,48.4,274.0,69.2,2.5,0.5,Fruits," 1,4 "
+les raisins,56.0,9.6,69.0,17.2,0.7,0.2,Fruits," 0,6 "
+Amarante (analogue du pop-corn),70.0,43.4,298.0,62.0,9.0,2.0,Céréales," < 0,5 "
+"Avoine, Hercules",59.0,36.0,352.0,61.0,12.5,6.2,Céréales," 0,2 "
+"Avoine, bouillie, cuisson instantanée",74.0,41.4,350.0,56.0,14.0,7.5,Céréales," 0,48 "
+Barre énergétique (sans sucre),50.0,23.4,342.0,46.7,8.8,14.9,Céréales," 0,5 "
+Blé d&#039;épeautre,40.0,24.5,337.0,61.2,14.7,2.2,Céréales, traces 
+Blé à grains entiers,45.0,26.8,305.0,59.5,11.8,2.2,Céréales," 1,9 "
+Bouillie d&#039;orge,70.0,46.1,310.0,65.8,11.5,2.0,Céréales," 0,1 "
+"Bouillie de flocons d&#039;avoine (écrasés), plats de flocons d&#039;avoine",60.0,9.0,88.0,15.0,3.0,1.7,Céréales, 0 
+Bouillie de millet,70.0,18.9,180.0,27.0,5.0,5.0,Céréales," 2,12 "
+Bouillie de riz au lait (avec sucre),75.0,13.6,146.0,18.1,3.4,6.0,Céréales," 2,41 "
+Bouillie de sarrasin,40.0,12.4,163.0,31.0,6.0,2.0,Céréales," 4,15 "
+Bouillie de semoule de maïs (mamalyga),70.0,14.7,92.0,21.0,2.0,1.0,Céréales," < 0,5 "
+Boulgour,55.0,41.8,342.0,76.0,12.0,1.3,Céréales," 0,61 "
+Capellini (pâtes),45.0,32.9,364.0,73.0,12.0,1.9,Céréales, - 
+Couscous,60.0,12.0,152.0,20.0,3.3,6.7,Céréales," 3,5 "
+Céréales entières (sans sucre),45.0,27.3,350.0,60.6,18.1,1.5,Céréales, - 
+Du maïs jaune,65.0,10.1,101.0,15.6,3.5,2.8,Céréales," < 0,25 "
+Farine Arroroot,85.0,72.0,357.0,84.7,0.3,0.1,Céréales," 1,68 "
+Farine complète,60.0,33.5,298.0,55.8,11.5,2.2,Céréales," 2,46 "
+Farine d&#039;avoine,25.0,3.0,68.0,12.0,2.4,1.4,Céréales, 0 
+Farine d&#039;épeautre,45.0,30.5,361.0,67.8,17.0,2.4,Céréales, 3 
+Farine de blé pelée (grains entiers),65.0,44.8,334.0,68.9,10.3,1.1,Céréales," 0,1 "
+Farine de blé premium,85.0,58.6,334.0,68.9,10.3,1.1,Céréales," 3,2 "
+"Farine de blé, blanche (non enrichie)",85.0,62.6,364.0,73.6,10.3,1.0,Céréales," 0,1 "
+Farine de châtaigne,65.0,46.1,365.0,71.0,6.4,3.7,Céréales," 2,7 "
+Farine de kamut,45.0,32.4,333.0,72.0,15.6,1.7,Céréales," 5,8 "
+Farine de maïs,70.0,53.8,361.0,76.8,6.9,3.9,Céréales," 2,2 "
+Farine de pois chiche,35.0,23.1,337.0,66.0,10.9,2.9,Céréales, 0 
+Farine de pomme de terre (amidon),95.0,78.9,357.0,83.1,6.9,0.3,Céréales," < 0,25 "
+Farine de quinoa,40.0,22.9,368.0,57.2,14.1,6.0,Céréales," 0,5 "
+Farine de riz,95.0,76.1,366.0,80.1,5.9,1.4,Céréales, 0 
+Farine de sarrasin,40.0,28.2,335.0,70.6,12.6,3.1,Céréales, 0 
+Farine de seigle (mouture moyenne),50.0,27.9,280.0,55.9,9.4,2.3,Céréales, 0 
+Farine de seigle à grains entiers,45.0,28.9,309.0,64.2,11.3,1.8,Céréales, 0 
+Farine de soja,25.0,4.5,385.0,17.9,36.5,18.6,Céréales, 0 
+Fettuccine,32.0,21.6,384.0,67.6,14.1,4.4,Céréales, 0 
+Flocons de blé,45.0,27.4,340.0,61.0,11.0,2.6,Céréales, 0 
+Flocons de maïs,85.0,55.3,320.0,65.0,5.5,1.0,Céréales, 0 
+Flocons de riz,80.0,61.6,360.0,77.0,7.0,2.0,Céréales, 0 
+Flocons de seigle,45.0,37.2,343.0,82.6,6.4,3.2,Céréales, 0 
+Fécule de maïs,95.0,80.8,340.0,85.0,0.0,0.0,Céréales, 0 
+Gnocchi,70.0,14.0,93.0,20.0,3.2,1.2,Céréales, 0 
+Graines (citrouille),25.0,13.5,446.0,54.0,19.0,19.0,Céréales, 0 
+Graines d&#039;amarante (non préparées),35.0,19.9,370.0,57.0,14.0,6.0,Céréales, 0 
+Graines de chia (séchées),30.0,12.6,512.0,42.1,16.5,30.7,Céréales, 0 
+Graines de tournesol),35.0,7.0,584.0,20.0,21.0,51.0,Céréales, 0 
+Grains (germés),15.0,6.2,198.0,41.4,7.5,1.3,Céréales, 0 
+Grains entiers (seigle),34.0,19.0,283.0,55.8,9.9,2.2,Céréales, 0 
+Gruau (cuit sur l&#039;eau),60.0,9.0,88.0,15.0,3.0,1.7,Céréales, 0 
+Gruau d&#039;orge,25.0,15.8,324.0,63.3,10.0,1.3,Céréales, 0 
+Jasmin de riz,60.0,44.0,331.0,73.4,6.9,0.2,Céréales, 0 
+"Kamut, blé égyptien (cuit)",40.0,25.4,342.0,63.5,13.9,2.0,Céréales, traces 
+La farine d&#039;orge,30.0,16.8,284.0,56.1,10.0,1.6,Céréales, 0 
+Lasagne,47.0,7.0,135.0,15.0,7.0,5.0,Céréales, traces 
+Lin,35.0,9.7,469.0,27.7,21.8,39.5,Céréales, 0 
+"Macarons, farine de noix de coco",32.0,18.1,433.0,56.6,3.3,23.3,Céréales, 0 
+Matzo (farine blanche),70.0,58.8,395.0,84.0,10.0,1.4,Céréales, 0 
+"Maïs blanc, maïs sucré, maïs surgelé",55.0,10.4,86.0,19.0,3.2,1.1,Céréales, 0 
+Maïs frais,35.0,1.8,148.0,5.0,2.2,13.0,Céréales, 0 
+Millet,70.0,51.1,378.0,73.0,11.0,4.2,Céréales, 0 
+Muesli,56.0,31.6,382.0,56.5,10.6,11.8,Céréales, 0 
+Muesli (avec sucre ou miel),65.0,43.8,464.0,67.4,8.2,16.6,Céréales, 0 
+Muesli (sans sucre),50.0,23.6,254.0,47.3,6.6,3.2,Céréales, 0 
+Norme de riz blanc,70.0,56.0,365.0,80.0,7.0,0.5,Céréales, 0 
+Nouilles de riz,65.0,16.2,109.0,24.9,0.9,0.2,Céréales, 0 
+Nouilles de sarrasin,59.0,41.6,348.0,70.5,14.7,0.9,Céréales, 0 
+Orge perlé (cuit à la vapeur),60.0,40.1,315.0,66.9,9.3,1.1,Céréales, 0 
+Patate douce,65.0,18.2,118.0,28.0,1.5,0.2,Céréales, 0 
+Perlovka,25.0,18.4,320.0,73.7,9.3,1.1,Céréales, 0 
+Pâte de blé complet,40.0,10.6,124.0,26.5,5.3,0.5,Céréales, 0 
+Pâtes,50.0,15.4,158.0,30.9,5.8,0.9,Céréales, 0 
+Pâtes (de blé dur),50.0,11.6,111.0,23.1,3.4,0.4,Céréales, 0 
+Pâtes au maïs,68.0,46.4,357.0,68.3,7.5,2.1,Céréales, 0 
+Pâtes au sarrasin,40.0,28.4,350.0,70.9,14.1,1.0,Céréales, 0 
+Pâtes complètes,50.0,32.1,352.0,64.2,13.9,2.9,Céréales, 0 
+Pâtes de grains entiers faites par al dente,40.0,14.6,237.0,36.5,8.4,0.4,Céréales, 0 
+Quinoa (cuit),35.0,7.3,120.0,21.0,4.4,1.9,Céréales, 0 
+Quinoa (non préparé),40.0,22.8,368.0,57.1,14.1,6.0,Céréales, 0 
+Risotto,70.0,22.1,168.0,31.6,4.5,3.4,Céréales, 0 
+Riz aromatisé,70.0,56.0,365.0,80.0,7.0,0.7,Céréales, 0 
+Riz basmati,50.0,37.5,340.0,75.0,9.5,0.2,Céréales, 0 
+Riz basmati non pelé,45.0,33.8,340.0,75.0,9.5,0.2,Céréales, - 
+Riz brun,50.0,36.5,337.0,72.9,7.4,1.8,Céréales, 0 
+Riz gluant,90.0,73.8,370.0,82.0,7.0,0.6,Céréales, 0 
+Riz instantané,85.0,65.5,348.0,77.0,7.3,12.0,Céréales, 0 
+Riz rouge,55.0,38.8,362.0,70.5,10.5,2.5,Céréales, 0 
+Riz sauvage,45.0,33.8,357.0,75.0,15.0,1.1,Céréales, 0 
+Riz sauvage (noir),35.0,26.3,357.0,75.0,15.0,1.1,Céréales, < 2 
+Riz à grain long,60.0,46.8,365.0,78.0,7.1,0.7,Céréales," 1,2 "
+Sarrasin,50.0,22.0,277.0,44.0,8.0,8.0,Céréales, 0 
+Semoule de blé dur,60.0,42.4,333.0,70.6,10.3,1.0,Céréales, 0 
+"Son (blé, avoine)",15.0,6.8,320.0,45.3,18.0,7.7,Céréales, 0 
+Sorgho,70.0,46.5,323.0,66.4,11.8,3.3,Céréales, 0 
+Spaghetti (bien cuit),55.0,12.8,112.0,23.2,3.5,0.4,Céréales, 0 
+Spaghetti al dente,45.0,21.5,271.0,47.8,9.3,0.7,Céréales, 0 
+Spaghetti bolognaise,52.0,9.9,191.0,19.1,9.5,8.1,Céréales, 0 
+Spaghetti à grains entiers,40.0,10.6,124.0,26.5,5.3,0.5,Céréales, 0 
+Tagliatelles (bien cuites),55.0,34.8,374.0,63.3,21.7,2.2,Céréales, 0 
+"Tortilla, maïs blanc",49.0,23.1,286.0,47.2,7.0,7.7,Céréales, 0 
+Un mélange de céréales raffinées avec du sucre,70.0,16.2,96.0,23.1,2.4,0.4,Céréales, 0 
+Vermicelles de blé dur,35.0,8.1,112.0,23.1,3.4,0.4,Céréales, 0 
+Vermicelles de soja,30.0,24.6,330.0,82.0,0.1,0.1,Céréales, 0 
+nouilles udon,62.0,8.5,76.0,13.7,1.9,1.5,Céréales, 0 
+Corn (en conserve),65.0,26.6,194.0,40.9,5.1,1.1,Céréales, 0 
+Aneth (frais),25.0,1.6,38.0,6.3,2.5,0.5,Légumes verts, 0 
+Asperges,15.0,0.6,20.0,3.9,2.2,0.1,Légumes verts, 0 
+Azuki Beans,35.0,22.0,329.0,62.9,19.9,0.5,Légumes verts, 0 
+Betterave,15.0,0.6,19.0,3.7,1.8,0.2,Légumes verts, 0 
+"Céleri (bouilli, sans sel)",85.0,4.0,27.0,4.7,1.0,0.2,Légumes verts, 0 
+Céleri (frais),15.0,0.3,12.0,2.1,0.9,0.1,Légumes verts, 0 
+Endive,15.0,0.0,17.0,0.3,1.3,0.2,Légumes verts, 0 
+Falafel (pois chiche),65.0,28.1,264.0,43.3,13.9,4.8,Légumes verts, 0 
+"Falafel (à partir de haricots, fava)",40.0,8.4,121.0,21.0,6.0,1.0,Légumes verts, 0 
+Fenouil,15.0,1.1,31.0,7.0,1.2,0.2,Légumes verts, 0 
+Germes de bambou,20.0,1.0,27.0,5.0,2.6,0.3,Légumes verts, 0 
+Germes de lentilles,25.0,5.5,119.0,22.1,9.0,0.6,Légumes verts, 0 
+Haricots (cuits),80.0,17.2,123.0,21.5,7.8,0.5,Légumes verts, 0 
+Haricots blancs,35.0,22.4,325.0,64.0,20.9,1.8,Légumes verts, 0 
+Haricots blancs (bouillis),33.0,8.3,140.0,25.0,9.3,0.5,Légumes verts, 0 
+"Haricots hétéroclites, borlotti, haricots romains",35.0,12.4,335.0,35.3,23.0,1.2,Légumes verts, 0 
+Haricots nature / tachetés (frais),35.0,5.9,102.0,16.9,7.0,0.5,Légumes verts, 0 
+Haricots rouges,35.0,18.4,310.0,52.7,21.0,1.6,Légumes verts, 0 
+Haricots verts,30.0,2.1,31.0,7.0,1.8,0.1,Légumes verts, 0 
+Haricots verts (frais),30.0,1.1,24.0,3.6,2.0,0.2,Légumes verts, 0 
+"Haricots, fava (crus)",40.0,7.2,88.0,18.0,8.0,0.7,Légumes verts, 0 
+Hoummous,25.0,3.5,166.0,14.0,8.0,10.0,Légumes verts, 0 
+La soupe aux pois,60.0,3.7,70.0,6.2,8.3,1.4,Légumes verts, 0 
+Laitue (fraîche),15.0,0.5,14.0,3.0,0.9,0.1,Légumes verts, 0 
+Le maïs sucré,48.0,8.9,96.0,18.6,3.4,1.5,Légumes verts, 0 
+Lentilles (jaunes),30.0,19.6,332.0,65.5,22.3,1.0,Légumes verts, 0 
+Lentilles (vertes),25.0,12.5,300.0,50.0,24.0,1.0,Légumes verts, 0 
+Maïs doux bouilli,60.0,13.5,123.0,22.5,4.1,2.3,Légumes verts, 0 
+Mung Bean Mung,25.0,15.8,347.0,63.0,24.0,1.2,Légumes verts, 0 
+Oignon (frais),15.0,1.6,47.0,10.4,1.4,0.0,Légumes verts, 0 
+Orache,53.0,34.0,368.0,64.2,14.1,6.1,Légumes verts, 0 
+Oseille,15.0,0.0,19.0,0.3,1.5,2.9,Légumes verts, 0 
+Persil,15.0,0.9,36.0,6.3,3.0,0.8,Légumes verts, 0 
+Persil (cuit),52.0,3.3,36.0,6.3,3.0,0.8,Légumes verts, 0 
+Petits pois pelés (frais),25.0,15.0,341.0,60.0,25.0,1.2,Légumes verts, 0 
+Poireau,15.0,1.2,33.0,8.2,2.0,0.0,Légumes verts, 0 
+"Pois (congelés, bouillis)",51.0,4.6,60.0,9.0,6.0,0.8,Légumes verts, 0 
+"Pois (verts, frais)",35.0,4.5,73.0,12.8,5.0,0.2,Légumes verts, 0 
+Pois chiches,10.0,6.1,364.0,61.0,19.0,6.0,Légumes verts, 0 
+Pois chiches (en conserve),35.0,6.8,125.0,19.5,7.2,3.4,Légumes verts, 0 
+Pois verts,15.0,1.5,69.0,10.0,4.0,0.2,Légumes verts, 0 
+Pois verts (en conserve),45.0,2.9,40.0,6.5,3.1,0.2,Légumes verts, 0 
+"Salade (&quot;iceberg&quot;, feuille, roquette, etc,)",15.0,0.3,25.0,2.1,2.6,0.7,Légumes verts, 0 
+Soja,15.0,4.5,446.0,30.0,36.0,20.0,Légumes verts, 0 
+"Tofu, tofu",15.0,0.1,73.0,0.6,8.1,4.2,Légumes verts, 0 
+Urd (cuit à la vapeur),43.0,27.1,347.0,63.0,24.0,1.2,Légumes verts, 0 
+Échalote,15.0,2.5,72.0,16.8,2.5,0.1,Légumes verts, 0 
+Épinard,15.0,0.3,22.0,2.0,2.9,0.3,Légumes verts, 0 
+Agneau bouilli,0.0,0.0,293.0,0.0,24.6,21.4,Viande, 0 
+"Boeuf (steak, etc,)",0.0,0.0,108.0,0.0,18.0,4.0,Viande, 0 
+Boeuf maigre bouilli,0.0,0.0,190.0,0.0,25.0,7.0,Viande, 0 
+Bœuf Stroganoff,56.0,7.3,207.0,13.1,16.6,5.7,Viande, 0 
+Canard,0.0,0.0,346.0,0.0,16.5,61.2,Viande, 0 
+Canard rôti,0.0,0.0,407.0,0.0,23.2,19.5,Viande," 1,7 "
+Cerveaux de boeuf,0.0,0.0,124.0,0.0,11.7,9.5,Viande," 8,3 "
+Dinde,0.0,0.0,197.0,0.8,21.6,12.0,Viande," 1,2 "
+Escalopes de porc,50.0,9.8,262.0,19.6,11.7,9.6,Viande," 3,6 "
+Foie de boeuf rôti,50.0,0.0,199.0,0.0,22.9,3.9,Viande," 2,7 "
+"Foie gras, pâte de foie d&#039;oie (en conserve)",0.0,0.0,412.0,0.0,15.2,39.0,Viande," 5,8 "
+Gros porc,0.0,0.0,489.0,0.0,11.4,49.3,Viande," 1,6 "
+"Jambon, tranché, saucisses",0.0,0.0,234.0,3.0,10.0,20.0,Viande," < 0,5 "
+Langue de boeuf bouillie,0.0,0.0,158.0,0.8,12.6,11.3,Viande," 1,9 "
+Lapin,0.0,0.0,199.0,0.0,20.7,12.9,Viande," 7,3 "
+Lapin (frit),0.0,0.0,155.0,0.0,25.0,6.0,Viande," 4,1 "
+Mouton (Agneau),0.0,0.0,203.0,0.0,16.3,15.3,Viande," 9,72 "
+OIE,0.0,0.0,412.0,0.0,15.2,39.0,Viande," 3,8 "
+Poitrine de poulet bouillie,0.0,0.0,137.0,1.8,29.8,5.9,Viande," 4,3 "
+Porc frit,0.0,0.0,407.0,0.0,17.7,28.7,Viande," 6,8 "
+Porc grillé,0.0,0.0,215.0,0.0,22.2,10.4,Viande," 2,3 "
+Porc maigre,0.0,0.0,316.0,0.0,16.4,27.8,Viande," 4,6 "
+Poulet frit),0.0,0.0,145.0,7.0,20.0,1.0,Viande," 4,03 "
+Poulets,0.0,0.0,156.0,0.4,18.7,7.8,Viande," 2,4 "
+Reins (braisés),0.0,0.0,156.0,0.0,26.1,3.2,Viande, 2 
+Saindoux,0.0,0.0,797.0,0.0,2.4,89.0,Viande," 1,7 "
+Saucisse cuite,34.0,9.5,300.0,28.0,12.0,3.0,Viande," 1,6 "
+Saucisses,30.0,0.6,332.0,1.9,10.1,31.6,Viande," 1,3 "
+Turquie (bouillie),0.0,0.0,119.0,0.0,21.8,2.8,Viande," 2,2 "
+Veau,0.0,0.0,90.0,0.0,19.7,1.2,Viande," 2,4 "
+Veau bouilli,0.0,0.0,88.0,0.0,16.2,2.1,Viande," 5,2 "
+poulet,0.0,0.0,165.0,0.6,20.8,8.8,Viande," 1,7 "
+Champignons,15.0,0.8,26.0,5.1,2.5,0.2,Champignons," 6,2 "
+Champignons (cuits),36.0,1.9,28.0,5.3,2.2,0.5,Champignons," 3,6 "
+Amande,15.0,1.9,609.0,13.0,18.6,53.7,Noix," 2,7 "
+Arachides (grillées à sec),15.0,2.3,599.0,15.3,28.0,52.5,Noix," 1,8 "
+Cacahuète,15.0,2.4,567.0,16.1,25.8,49.2,Noix," 0,5 "
+Châtaigne,60.0,26.5,196.0,44.2,1.6,1.2,Noix," 2,9 "
+Glands,25.0,10.3,387.0,41.0,6.0,24.0,Noix," 1,53 "
+Noisette,15.0,2.5,628.0,17.0,15.0,61.0,Noix," 1,4 "
+Noisettes,25.0,2.5,704.0,9.9,16.1,66.9,Noix," 0,8 "
+Noix,15.0,1.1,654.0,7.0,15.2,65.2,Noix," 1,7 "
+Noix (mélanger avec des raisins secs),21.0,9.8,483.0,46.6,11.2,27.9,Noix," 5,1 "
+Noix de cajou,15.0,4.5,553.0,30.0,18.0,44.0,Noix," 1,6 "
+Noix de cajou (salées),22.0,6.6,570.0,30.0,17.0,42.0,Noix, 1 
+Noix de coco,45.0,0.8,97.0,1.7,1.5,9.3,Noix," 1,4 "
+Noyer,15.0,2.1,654.0,14.0,15.0,65.0,Noix," 4,2 "
+Pignons de pin,15.0,2.9,670.0,19.0,12.0,61.0,Noix," 2,47 "
+Pistaches,15.0,4.2,562.0,28.0,20.0,45.0,Noix, 2 
+Pâte / purée d&#039;amande blanche (sans édulcorants),35.0,16.7,458.0,47.8,9.0,27.7,Noix," 1,3 "
+Tamarin (doux),65.0,40.8,239.0,62.7,2.8,0.6,Noix," 3,4 "
+Beurre,0.0,0.0,717.0,0.7,0.0,81.0,Huiles et sauces,0
+Beurre (riche en matières grasses),14.0,0.1,746.0,0.8,0.0,82.0,Huiles et sauces,0
+Graisse d&#039;oie,0.0,0.0,900.0,0.0,0.0,99.8,Huiles et sauces,0
+Graisse végétale,0.0,0.0,884.0,0.0,0.0,100.0,Huiles et sauces,0
+Gras (animal / végétal),0.0,0.0,884.0,0.0,0.0,100.0,Huiles et sauces,0
+Huile d&#039;amande,25.0,0.0,816.0,0.0,0.0,90.7,Huiles et sauces,0
+Huile d&#039;arachide (sans sucre),40.0,8.6,589.0,21.6,0.0,49.9,Huiles et sauces,0
+Huile d&#039;olive,0.0,0.0,884.0,0.0,0.0,100.0,Huiles et sauces,0
+Lait de coco (cru),40.0,1.1,197.0,2.8,0.0,21.3,Huiles et sauces,0
+Margarine,0.0,0.0,717.0,0.7,0.0,81.0,Huiles et sauces,0
+Mayonnaise (maison),0.0,0.0,430.0,4.0,0.0,46.0,Huiles et sauces,0
+Mayonnaise (sucrée),60.0,0.2,695.0,0.3,0.0,78.6,Huiles et sauces,0
+Purée de tomate,35.0,3.1,38.0,9.0,0.0,0.2,Huiles et sauces,0
+Sauce pesto),15.0,0.9,454.0,6.0,0.0,45.0,Huiles et sauces,0
+Sauce soja,20.0,1.0,53.0,4.9,0.0,0.6,Huiles et sauces,0
+"Sauce tomate (naturelle, sans sucre)",35.0,1.3,21.0,3.8,0.0,0.2,Huiles et sauces,0
+"Sirop de blé, sirop de riz",100.0,77.0,311.0,77.0,0.0,0.2,Huiles et sauces,0
+Caviar rouge,0.0,0.0,263.0,0.0,32.0,15.0,Fruits de mer," 1,6 "
+"Crustacés (homard, crabe, langouste)",5.0,0.1,97.0,1.0,20.3,1.3,Fruits de mer," 1,65 "
+"Fruits de mer (huîtres, crevettes, moules, etc,)",0.0,0.0,204.0,1.9,29.0,8.0,Fruits de mer," 8,7 "
+"Poissons (saumon, thon, etc,)",0.0,0.0,208.0,0.0,20.0,13.0,Fruits de mer," 0,9 "
+Surimi (poisson haché en bâtonnets de crabe),50.0,3.4,99.0,6.8,15.2,0.9,Fruits de mer," 5,13 "
+Purée de soupe aux lentilles,44.0,6.6,108.0,15.0,7.6,2.0,Soupes," 14,3 "
+Soupe au poulet et aux champignons,46.0,0.7,26.6,1.5,3.7,0.7,Soupes," 2,6 "
+Soupe aux lentilles,30.0,2.4,56.0,8.0,3.7,1.1,Soupes," 2,8 "
+Soupe aux légumes,60.0,2.2,20.7,3.6,0.6,0.5,Soupes," 10,6 "
+Soupe à la tomate,38.0,2.7,30.0,7.0,0.8,0.3,Soupes, 7 
+Ail,30.0,9.0,143.0,29.9,0.0,0.5,Épices,0
+Basilic,5.0,0.1,22.0,2.7,0.0,0.6,Épices,0
+Cannelle,5.0,2.9,261.0,57.0,0.0,2.0,Épices,0
+Caroube (poudre de caroube),15.0,11.7,212.0,78.0,0.0,1.0,Épices,0
+Carvi,5.0,0.6,333.0,11.9,0.0,14.6,Épices,0
+Gingembre,15.0,0.6,17.0,3.7,0.0,0.0,Épices,0
+Graine de chanvre (pelée),4.0,0.3,553.0,8.7,0.0,48.7,Épices,0
+Graine de pavot,35.0,9.8,525.0,28.0,0.0,42.0,Épices,0
+Graine de sésame,35.0,4.3,565.0,12.2,0.0,48.7,Épices,0
+Ketchup,55.0,14.0,98.0,25.5,0.0,0.3,Épices,0
+La graine de lin,35.0,0.6,534.0,1.6,0.0,42.2,Épices,0
+Le vinaigre,15.0,0.0,18.0,0.0,0.0,0.0,Épices,0
+Lotus (poudre de racine),33.0,4.1,74.0,12.3,0.0,0.1,Épices,0
+Lupin,15.0,6.1,371.0,40.4,0.0,9.7,Épices,0
+"Manioc (amer, doux)",55.0,20.9,159.0,38.0,0.0,0.3,Épices,0
+Moutarde (avec sucre),55.0,5.9,90.0,10.8,0.0,2.0,Épices,0
+Origan,5.0,3.2,333.0,64.7,0.0,10.0,Épices,0
+"Pâte de sésame, tahini",40.0,4.9,575.0,12.2,0.0,48.7,Épices,0
+Raifort,10.0,1.1,56.0,10.5,0.0,0.4,Épices,0
+Sésame,35.0,8.1,573.0,23.0,0.0,50.0,Épices,0
+Vanille,5.0,3.3,260.0,65.0,0.0,0.0,Épices,0
+Vinaigre balsamique,5.0,2.8,237.0,55.0,0.0,0.0,Épices,0
+moutarde de Dijon,35.0,3.3,165.0,9.5,0.0,9.7,Épices,0
+Épices (cannelle),5.0,4.0,247.0,81.0,0.0,1.2,Épices,0
+"Bar Muesli, sans gluten",50.0,37.1,285.0,74.3,0.0,0.0,Sucreries,0
+Barre de fruits (fraise),90.0,60.8,418.0,67.5,0.0,14.5,Sucreries,0
+Beurre d&#039;arachide (sans sucre),25.0,7.0,567.0,28.0,0.0,49.0,Sucreries,0
+Bonbons au chocolat avec édulcorants,23.0,8.2,547.0,35.7,0.0,52.4,Sucreries,0
+Cassonade,70.0,68.6,380.0,98.0,0.0,0.0,Sucreries,0
+Chocolat,49.0,29.9,546.0,61.0,0.0,31.0,Sucreries,0
+Chocolat (+ 70% de cacao),25.0,9.0,549.0,36.0,0.0,39.0,Sucreries,0
+Chocolat au lait,49.0,28.9,535.0,59.0,0.0,30.0,Sucreries,0
+Chocolat en poudre avec du sucre,60.0,19.1,374.0,31.9,0.0,17.5,Sucreries,0
+Chocolat noir,23.0,13.8,546.0,60.0,0.0,30.2,Sucreries,0
+Chocolat noir (avec 85% de cacao),20.0,9.6,539.0,48.2,0.0,34.4,Sucreries,0
+Confiture,51.0,47.5,376.0,93.1,0.0,0.1,Sucreries,0
+Confiture de fraises (faible en sucre),51.0,31.1,246.0,61.0,0.0,0.0,Sucreries,0
+Confiture de fraises (riche en sucre),65.0,45.5,280.0,70.0,0.0,0.0,Sucreries,0
+Fructose,20.0,20.0,399.0,99.8,0.0,0.0,Sucreries,0
+Glucose,96.0,94.1,385.0,98.0,0.0,0.1,Sucreries,0
+Glucose (Dextrose),100.0,95.0,380.0,95.0,0.0,0.0,Sucreries,0
+Lait condensé,61.0,32.9,321.0,54.0,0.0,9.0,Sucreries,0
+Lait condensé au sucre,80.0,6.8,329.0,8.5,0.0,56.0,Sucreries,0
+Marmelade (sans sucre),30.0,22.2,284.0,73.9,0.0,0.1,Sucreries,0
+Marmelade au sucre,65.0,49.8,293.0,76.6,0.0,0.0,Sucreries,0
+Mon chéri,60.0,45.8,309.0,76.4,0.0,0.2,Sucreries,0
+Mélasse,70.0,52.5,290.0,75.0,0.0,0.1,Sucreries,0
+Pâte d&#039;amande (sans sucre),35.0,15.1,458.0,43.0,0.0,27.7,Sucreries,0
+Riz à l&#039;air (analogue du pop-corn),85.0,76.3,402.0,89.8,0.0,0.5,Sucreries,0
+Sirop,70.0,54.8,296.0,78.3,0.0,0.3,Sucreries,0
+Sirop d&#039;érable,55.0,36.9,261.0,67.1,0.0,0.2,Sucreries,0
+Sirop de blé,100.0,78.0,315.0,78.0,0.0,0.3,Sucreries,0
+Sirop de chicorée,55.0,5.2,167.0,9.5,0.0,0.0,Sucreries,0
+Sirop de glucose,100.0,70.5,285.0,70.5,0.0,0.0,Sucreries,0
+Sirop de maïs,15.0,11.7,286.0,78.0,0.0,0.0,Sucreries,0
+Sirop de maïs (foncé),115.0,89.2,286.0,77.6,0.0,0.0,Sucreries,0
+Sirop de riz,100.0,77.0,311.0,77.0,0.0,0.2,Sucreries,0
+Sorbet,50.0,27.6,368.0,55.2,0.0,13.9,Sucreries,0
+Sorbet (avec sucre),65.0,17.9,158.0,27.6,0.0,4.8,Sucreries,0
+Sorbet (sans sucre),40.0,4.8,50.0,12.0,0.0,0.0,Sucreries,0
+Stevia,0.0,0.0,18.0,0.1,0.0,0.0,Sucreries,0
+Sucre,58.0,58.0,387.0,100.0,0.0,0.0,Sucreries,0
+Sucre de noix de coco,35.0,1.8,19.0,5.0,0.0,0.0,Sucreries,0
+Tablette de chocolat (avec sucre),70.0,38.1,550.0,54.4,0.0,35.7,Sucreries,0
+chocolat blanc,44.0,26.0,539.0,59.2,0.0,31.1,Sucreries,0
+Artichaut,20.0,1.2,28.0,6.0,1.2,0.1,Légumes, - 
+Aubergine,20.0,1.7,35.0,8.7,0.8,0.2,Légumes, - 
+Betterave (fraîche),30.0,2.6,43.0,8.8,1.5,0.1,Légumes, - 
+Betteraves (bouillies),65.0,7.0,49.0,10.8,1.8,0.0,Légumes, - 
+Brocoli,15.0,0.5,35.0,3.1,3.5,0.4,Légumes," < 0,5 "
+Brocoli (cuit),45.0,3.1,45.0,7.0,3.0,1.0,Légumes," < 0,5 "
+Carotte (cuite),85.0,4.3,25.0,5.0,0.8,0.3,Légumes," < 0,5 "
+Carotte (fraîche),30.0,2.0,41.0,6.8,0.9,0.2,Légumes, - 
+Caviar de courge,75.0,3.6,83.0,4.8,1.3,8.1,Légumes, - 
+"Chayote (concombre mexicain), en purée",50.0,2.3,19.0,4.5,0.8,0.1,Légumes, 1 
+Chili,15.0,1.4,40.0,9.5,2.0,0.2,Légumes," 0,8 "
+Chou blanc,15.0,0.9,24.0,5.8,1.2,0.1,Légumes," 0,9 "
+Chou chinois,20.0,0.4,12.0,2.2,1.1,0.2,Légumes," 0,8 "
+Choufleur,15.0,0.8,25.0,5.3,2.0,0.1,Légumes," 0,7 "
+Choucroute,15.0,0.8,29.0,5.0,1.7,0.1,Légumes," 3,2 "
+Choux de Bruxelles,15.0,0.3,46.0,2.3,3.6,2.4,Légumes, 2 
+Choux de Bruxelles (frais),15.0,1.1,36.0,7.1,2.5,0.5,Légumes," 2,8 "
+Citrouille,65.0,4.5,26.0,7.0,1.0,0.1,Légumes," 3,4 "
+Citrouille (bouillie),75.0,5.3,26.0,7.0,1.0,0.1,Légumes, - 
+Concombre,15.0,0.4,15.0,2.8,0.8,0.1,Légumes, - 
+Concombre au vinaigre,15.0,0.7,18.0,4.6,0.0,0.0,Légumes, - 
+Concombres salés,15.0,0.3,11.0,2.3,0.3,0.2,Légumes, - 
+Cornichons à l&#039;aneth,15.0,0.2,16.0,1.3,2.8,0.0,Légumes, - 
+Câpres,20.0,0.8,30.0,4.2,2.1,0.5,Légumes, - 
+Kohlrabi,20.0,2.1,42.0,10.6,2.8,0.0,Légumes, - 
+Légumes en conserve (usine),65.0,3.4,77.0,5.2,3.2,2.8,Légumes, - 
+Navet (cru),30.0,1.9,30.0,6.2,1.5,0.1,Légumes, - 
+"Navet (cuit, bouilli)",85.0,3.9,26.0,4.6,1.7,0.2,Légumes, - 
+"Navet, navet (cuit)",85.0,5.1,28.0,6.0,1.0,0.0,Légumes, - 
+"Navet, navet (frais)",30.0,1.8,28.0,6.0,1.0,0.0,Légumes," 3,8 "
+Olives,15.0,0.9,115.0,6.3,0.8,10.7,Légumes," 5,45 "
+Olives noires,15.0,4.8,361.0,32.0,2.2,8.7,Légumes," 1,1 "
+Panais,85.0,15.3,75.0,18.0,1.2,0.3,Légumes, 1 
+"Patate douce (batata, igname)",70.0,11.1,77.0,15.8,1.4,0.4,Légumes," 1,4 "
+Piment vert (frais),15.0,1.2,40.0,8.0,2.0,0.2,Légumes," 2,7 "
+Poivron,15.0,0.8,27.0,5.3,1.3,0.0,Légumes," 3,5 "
+"Poivron (rouge, vert), paprika",15.0,1.0,33.0,6.9,1.3,0.0,Légumes," 1,4 "
+Pomme de terre au four,95.0,20.0,93.0,21.1,2.5,0.1,Légumes," 2,02 "
+Pomme de terre frite,95.0,19.1,149.0,20.1,2.8,7.0,Légumes," 2,1 "
+Pommes de terre bouillies,70.0,12.3,80.0,17.5,1.8,0.1,Légumes," 1,26 "
+Purée de pomme de terre,83.0,11.4,72.0,13.7,1.7,1.2,Légumes," 1,9 "
+Ratatouille,20.0,1.0,37.8,5.0,0.9,1.6,Légumes," 1,18 "
+Rhubarbe,15.0,0.4,13.0,2.5,0.7,0.1,Légumes," 1,4 "
+"Rutabaga, betteraves fourragères",70.0,6.1,39.0,8.7,1.3,0.2,Légumes," 0,83 "
+Scorzonera (Kozelec),30.0,0.3,17.0,1.0,1.0,1.0,Légumes," 1,4 "
+Tomates,30.0,1.1,24.0,3.8,1.1,0.2,Légumes," 0,81 "
+Tomates (fraîches),30.0,1.1,24.0,3.8,1.1,0.2,Légumes," 1,4 "
+Tomates (séchées),35.0,10.2,170.0,29.0,6.3,4.3,Légumes," 0,92 "
+Topinambour (frais),50.0,6.4,61.0,12.8,2.1,0.1,Légumes," 1,6 "
+Un radis,15.0,0.5,20.0,3.4,1.2,0.1,Légumes," 1,01 "
+Zucchini,15.0,0.5,17.0,3.1,1.2,0.3,Légumes," 1,5 "
+caviar d&#039;aubergine,40.0,5.3,146.0,13.3,1.7,5.1,Légumes," 0,92 "
+Écraser,15.0,0.7,24.0,4.6,0.6,0.3,Légumes," 2,6 "
+Colocasia esculenta,48.0,12.7,112.0,26.5,1.5,0.2,Autres aliments," 1,23 "
+Dumplings,86.0,24.9,275.0,29.0,11.9,12.4,Autres aliments," 0,75 "
+Levure,35.0,6.3,105.0,18.0,8.0,1.9,Autres aliments," 5,3 "
+Maltodextrine,95.0,94.0,380.0,99.0,0.0,0.0,Autres aliments," 3,46 "
+Oeuf,0.0,0.0,155.0,1.1,13.0,11.0,Autres aliments," 1,97 "
+Oeuf en poudre,60.0,2.7,542.0,4.5,46.0,37.3,Autres aliments, 0 
+Omelette,49.0,7.3,210.0,15.0,14.0,2.1,Autres aliments, 0 
+Pulpe de palme,20.0,1.2,354.0,6.2,3.4,33.5,Autres aliments, 0 
+Ravioli (de blé tendre),70.0,20.8,245.0,29.7,15.5,8.0,Autres aliments, 0 
+Raviolis (de blé dur),40.0,11.6,255.0,29.0,15.0,8.0,Autres aliments, 0 
+Sushi,55.0,11.6,158.0,21.1,4.3,4.9,Autres aliments, 0 
+"Sushi, saumon",48.0,7.3,129.0,15.2,9.2,3.6,Autres aliments, 0 
+Tacos,70.0,14.0,226.0,20.0,9.0,13.0,Autres aliments, 0 
+Tahin,40.0,8.4,595.0,21.0,17.0,54.0,Autres aliments," 12,5 "
+Tapioca (séchée),85.0,74.6,350.0,87.8,0.2,0.0,Autres aliments," 8,6 "
+Tempeh,15.0,1.4,193.0,9.0,19.0,11.0,Autres aliments," 8,04 "
+la levure de bière,35.0,0.0,75.0,0.0,12.7,2.7,Autres aliments," 11,6 "
