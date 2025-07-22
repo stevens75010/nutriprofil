@@ -22,7 +22,7 @@ def main():
         "Accueil": page_1.show_page,
         "Mon suivi": page_2.show_page,
         "Recettes": page_3.show_page,
-        "Statistiques": dashboard.show_dashboard
+        "Pour aller plus loin...": dashboard.show_dashboard
     }
 
     # Initialiser la page courante dans le session state si elle n'existe pas
@@ -35,7 +35,7 @@ def main():
             st.session_state.current_page = page_name
 
     # Afficher le titre de la page principale en fonction de la page sélectionnée
-    st.title(st.session_state.current_page)
+    #st.title(st.session_state.current_page)
 
     # Appeler la fonction de la page sélectionnée
     pages[st.session_state.current_page]()

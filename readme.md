@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/nutriprofil-logo.png" alt="Nutriprofil Logo" width="300">
+  <img src="streamlit/images/nutriprofil-logo.png" alt="Nutriprofil Logo" width="300">
 </div>
 
 
