@@ -11,7 +11,20 @@ from io import BytesIO
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY", "")
 
-# --- Familles reconnues par l'interface (pour l'utilisateur uniquement) ---
+# --- Mapping des familles (formulaire -> modèle) ---
+FAMILLE_MAPPING = {
+    "Légume": "Fruits et légumes",
+    "Fruit": "Fruits et légumes", 
+    "Viande": "Viandes et poissons",
+    "Laitier": "Produits laitiers",
+    "Transformé": "Plats préparés",
+    "Céréale": "Céréales",
+    "Boisson": "Boissons",
+    "Autre": "Autres",
+    "Sucré": "Produits sucrés"
+}
+
+# Familles reconnues par le modèle (basées sur l'erreur)
 FAMILLES_MODELE = [
     "Produits animaux",
     "Fruits et légumes",
@@ -26,6 +39,7 @@ FAMILLES_MODELE = [
 
 # --- Fonction pour diagnostiquer les colonnes du modèle ---
 def get_model_features():
+    """Récupère les noms de colonnes attendues par le modèle"""
     try:
         if hasattr(model_cg, 'feature_names_in_'):
             return list(model_cg.feature_names_in_)
@@ -71,14 +85,17 @@ questions = [
     ("graisses", "Combien de **graisses** totales (en grammes) ?"),
     ("proteines", "Combien de **protéines** (en grammes) ?"),
     ("sodium", "Combien de **sodium** (en milligrammes) ?"),
-    ("famille", "À quelle **famille** appartient ce produit ?", list(FAMILLES_MODELE))
+    ("famille", "À quelle **famille** appartient ce produit ?", list(FAMILLE_MAPPING.keys()))
 ]
 
 def show_page():
+    # Initialisation
     init_session_state()
-
+    
+    # --- Avatar + Présentation ---
     col1, col2 = st.columns([1, 6])
     with col1:
+        # Vérifier si l'image existe, sinon utiliser un emoji
         if os.path.exists("images/debby-avatar.png"):
             st.image("images/debby-avatar.png", width=90)
         else:
@@ -92,6 +109,7 @@ def show_page():
 
     st.markdown("---")
 
+    # --- Authentification minimale ---
     if "user" not in st.session_state:
         st.error("❌ Vous devez vous connecter sur la Page 1.")
         st.stop()
@@ -100,10 +118,14 @@ def show_page():
     st.title(f"Bienvenue {user} 🙂")
     st.markdown("Merci de remplir le formulaire ci-dessous pour analyser un produit alimentaire.")
 
+    # Vérifier si les modèles sont chargés
     if model_cg is None:
         st.error("❌ Les modèles ML ne sont pas disponibles. Vérifiez les chemins des fichiers.")
         st.stop()
+    
+    
 
+    # --- Formulaire complet en 2 colonnes ---
     with st.form("formulaire_complet"):
         st.markdown("### 📝 Informations sur le produit")
 
@@ -117,15 +139,24 @@ def show_page():
             graisses = st.number_input("🥑 Graisses totales (g)", min_value=0.0, step=0.1, value=0.0, key="form_graisses")
             proteines = st.number_input("🍗 Protéines (g)", min_value=0.0, step=0.1, value=0.0, key="form_proteines")
             sodium = st.number_input("🧂 Sodium (mg)", min_value=0.0, step=1.0, value=0.0, key="form_sodium")
-            famille = st.selectbox("📂 Famille du produit", FAMILLES_MODELE, index=0, key="form_famille")
+            # Liste directement les familles reconnues par le modèle pour éviter toute confusion
+            famille = st.selectbox(
+                "📂 Famille du produit",
+                FAMILLES_MODELE,
+                index=0,
+                key="form_famille"
+            )
 
         st.markdown("---")
         submitted = st.form_submit_button("✅ Valider les réponses")
 
+    # --- Traitement de la soumission ---
     if submitted:
+        # Validation des données
         if not nom.strip():
             st.error("❌ Veuillez entrer un nom de produit.")
         else:
+            # Enregistrement des réponses en session_state
             st.session_state.answers = {
                 "nom": nom.strip(),
                 "calories": float(calories),
@@ -138,13 +169,15 @@ def show_page():
             }
             st.session_state.question_index = len(questions)
             st.success("✅ Données enregistrées avec succès!")
+            
+            # Afficher immédiatement les résultats
             show_result()
 
 def show_result():
     if "answers" not in st.session_state or not st.session_state.answers:
         st.error("❌ Aucune donnée trouvée. Veuillez remplir le formulaire.")
         return
-
+        
     answers = st.session_state.answers
     user = st.session_state.user
 
@@ -153,18 +186,37 @@ def show_result():
 
     try:
         # --- Prédiction Charge Glycémique ---
+        # La famille peut déjà être celle du modèle (si elle provient de FAMILLES_MODELE)
+        if answers["famille"] in FAMILLES_MODELE:
+            famille_modele = answers["famille"]
+        else:
+            famille_modele = FAMILLE_MAPPING.get(answers["famille"], "Autres")
+        famille_col = "Famille_" + famille_modele
+        
+        # Créer le DataFrame avec les bonnes colonnes
         df_input = pd.DataFrame([{
             "Calories": answers["calories"],
             "Fibres": answers["fibres"],
             "Glucides": answers["glucides"],
-            "Gras": answers["graisses"],
-            "Proteines": answers["proteines"]
+            "Gras": answers["graisses"],  # Changé de "Graisses" à "Gras"
+            "Proteines": answers["proteines"]  # Changé de "Protéines" à "Proteines"
         }])
-
-        model_cols = get_model_features()
-        if model_cols:
-            df_input = df_input.reindex(columns=model_cols, fill_value=0)
-
+        
+        # Ajouter toutes les colonnes famille du modèle (initialisées à 0)
+        for famille_mod in FAMILLES_MODELE:
+            col = "Famille_" + famille_mod
+            df_input[col] = 0
+        
+        # Mettre à 1 la famille correspondante
+        df_input[famille_col] = 1
+        
+        # S'assurer que les colonnes sont dans le bon ordre (optionnel mais recommandé)
+        colonnes_nutrition = ["Calories", "Fibres", "Glucides", "Gras", "Proteines"]  # Noms mis à jour
+        colonnes_famille = ["Famille_" + f for f in FAMILLES_MODELE]
+        df_input = df_input[colonnes_nutrition + colonnes_famille]
+        
+     
+        
         cg = model_cg.predict(df_input)[0]
         st.session_state.cg = cg
 
@@ -177,7 +229,7 @@ def show_result():
             answers["proteines"],
             answers["calories"]
         ]]
-
+        
         risques = {
             "Diabète": model_diabete.predict(X_sante)[0],
             "Obésité": model_obesite.predict(X_sante)[0],
@@ -186,28 +238,36 @@ def show_result():
         }
         st.session_state.risques = risques
 
+        # --- Sauvegarder l'historique ---
         if user not in st.session_state.historique_utilisateurs:
             st.session_state.historique_utilisateurs[user] = []
 
+        # Éviter les doublons
         nouveau_produit = {
             "nom": answers["nom"],
             "cg": cg,
-            "famille": answers["famille"],
+            "famille": answers["famille"],  # Garder la famille du formulaire pour l'affichage
+            "famille_modele": famille_modele,  # Ajouter aussi la famille du modèle
             "risques": risques
         }
-
+        
+        # Vérifier si ce produit n'est pas déjà dans l'historique
         if not any(p["nom"] == nouveau_produit["nom"] for p in st.session_state.historique_utilisateurs[user]):
             st.session_state.historique_utilisateurs[user].append(nouveau_produit)
 
+        # --- Affichage résultats ---
         col1, col2 = st.columns(2)
+        
         with col1:
             st.metric("🔥 Charge glycémique", f"{cg:.2f}")
+            
         with col2:
             st.markdown("### 🧬 Analyse santé")
             for maladie, risque in risques.items():
                 emoji = "🟢 Faible" if risque == 0 else "🔴 Élevé"
                 st.markdown(f"- **{maladie}** : {emoji}")
 
+        # --- Recommandation GPT ---
         if openai.api_key:
             with st.spinner("🤖 Génération de recommandations..."):
                 prompt = f"""
@@ -234,17 +294,17 @@ def show_result():
                         max_tokens=300
                     )
                     suggestion = response.choices[0].message.content.strip()
-                    st.markdown("### 💡 Suggestion de Debby")
+                    st.markdown(f"### 💡 Suggestion de Debby")
                     st.info(suggestion)
                 except Exception as e:
                     st.warning(f"⚠️ Impossible de générer une recommandation GPT : {e}")
         else:
             st.warning("⚠️ Clé API OpenAI non configurée. Recommandations GPT indisponibles.")
 
-        # --- Export ---
+        # --- Export CSV ---
         st.markdown("---")
         st.markdown("### 📥 Exporter vos données")
-
+        
         histo = st.session_state.historique_utilisateurs[user]
         if histo:
             histo_df = pd.DataFrame([
@@ -267,19 +327,22 @@ def show_result():
                     file_name=f"historique_{user}.csv",
                     mime="text/csv"
                 )
+
+            # --- Export PDF (avec gestion d'erreur pour le logo) ---
             with col2:
                 if st.button("📄 Exporter PDF stylisé"):
                     try:
                         pdf = FPDF()
                         pdf.add_page()
                         pdf.set_font("Arial", "B", 14)
-
+                        
+                        # Essayer d'ajouter le logo
                         if os.path.exists("images/nutriprofil-logo.png"):
                             pdf.image("images/nutriprofil-logo.png", x=10, y=8, w=40)
                             pdf.ln(25)
                         else:
                             pdf.ln(10)
-
+                            
                         pdf.cell(0, 10, f"Historique des analyses - {user}", ln=True)
                         pdf.ln(5)
 
@@ -308,19 +371,23 @@ def show_result():
         st.error(f"❌ Erreur lors de l'analyse : {e}")
         st.error("Vérifiez que tous les modèles sont correctement chargés.")
 
+    # --- Recommencer ---
     st.markdown("---")
     if st.button("🔄 Analyser un autre produit"):
+        # Garder l'historique mais réinitialiser le formulaire
         for key in ["question_index", "answers", "cg", "risques"]:
             if key in st.session_state:
                 del st.session_state[key]
         st.rerun()
 
+# --- Fonction principale ---
 def main():
     st.set_page_config(
         page_title="Debby - Analyse Nutritionnelle",
         page_icon="🍽️",
         layout="wide"
     )
+    
     show_page()
 
 if __name__ == "__main__":

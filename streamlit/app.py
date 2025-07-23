@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-
+st.set_page_config(layout="wide")
 # Import des pages
 import page_1
 import page_2
@@ -14,7 +14,7 @@ try:
 except ImportError:
     pass
 
-st.set_page_config(layout="wide")
+
 
 def main():
     # --- Logo dans la sidebar ---
@@ -31,7 +31,7 @@ def main():
         if st.sidebar.button("🔓 Se déconnecter"):
             for key in list(st.session_state.keys()):
                 del st.session_state[key]
-            st.experimental_rerun()
+            st.rerun()
 
     # --- Pages disponibles ---
     pages = {
@@ -58,15 +58,15 @@ def main():
             st.session_state.current_page = "Accueil"
 
     # --- Menu navigation (sidebar) ---
-    st.sidebar.markdown("### 📁 Navigation")
+    
     for page_name in pages:
         if st.sidebar.button(page_name, use_container_width=True, key=f"nav_{page_name}"):
             st.session_state.current_page = page_name
-            st.experimental_rerun()
+            st.rerun()
 
     # --- Afficher la page sélectionnée ---
     selected_page = st.session_state.current_page
-    st.title(selected_page)
+    #st.title(selected_page)
 
 
     # Protection : empêcher accès sans login sauf accueil
