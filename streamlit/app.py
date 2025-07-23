@@ -37,8 +37,9 @@ def main():
     pages = {
         "Accueil": page_1.show_page,
         "Mon suivi": page_2.show_page,
-        "Mes recettes": page_3.show_page,
-        "Statistiques": dashboard.show_dashboard,
+    "Mes recettes": page_3.show_page,
+    "Statistiques": dashboard.show_dashboard,
+
     }
 
     # --- Ajouter les pages Admin selon le rôle ---
@@ -66,6 +67,7 @@ def main():
     # --- Afficher la page sélectionnée ---
     selected_page = st.session_state.current_page
     st.title(selected_page)
+
 
     # Protection : empêcher accès sans login sauf accueil
     if selected_page != "Accueil" and "user" not in st.session_state:
