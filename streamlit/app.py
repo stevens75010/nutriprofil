@@ -31,15 +31,14 @@ def main():
         if st.sidebar.button("🔓 Se déconnecter"):
             for key in list(st.session_state.keys()):
                 del st.session_state[key]
-            st.experimental_rerun()
+            st.rerun()
 
     # --- Pages disponibles ---
     pages = {
         "Accueil": page_1.show_page,
         "Mon suivi": page_2.show_page,
-    "Mes recettes": page_3.show_page,
-    "Statistiques": dashboard.show_dashboard,
-
+        "Mes recettes": page_3.show_page,
+        "Statistiques": dashboard.show_dashboard,
     }
 
     # --- Ajouter les pages Admin selon le rôle ---
@@ -62,12 +61,11 @@ def main():
     for page_name in pages:
         if st.sidebar.button(page_name, use_container_width=True, key=f"nav_{page_name}"):
             st.session_state.current_page = page_name
-            st.experimental_rerun()
+            st.rerun()
 
     # --- Afficher la page sélectionnée ---
     selected_page = st.session_state.current_page
     st.title(selected_page)
-
 
     # Protection : empêcher accès sans login sauf accueil
     if selected_page != "Accueil" and "user" not in st.session_state:
@@ -75,7 +73,6 @@ def main():
         page_1.show_page()
     else:
         pages[selected_page]()
-
 
 if __name__ == "__main__":
     main()
