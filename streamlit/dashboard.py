@@ -4,11 +4,7 @@ import plotly.express as px
 import sqlite3
 import os
 
-st.set_page_config(
-    page_title="Nutrition & Santé Dashboard",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+
 
 def load_db(path):
     if not os.path.exists(path):
@@ -116,7 +112,7 @@ def show_kpis(conn):
 
 def show_dashboard():
     st.title("🌟 Dashboard Nutrition & Santé")
-    db_path = '/Users/coulibalykani/Desktop/Projet 3/nutriprofil/nutriprofil_final.db'
+    db_path = '../nutriprofil_final_.db'
     conn = load_db(db_path)
     show_kpis(conn)
     conn.close()
